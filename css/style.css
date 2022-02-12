@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+@font-face {
+	font-family: "CenturyGothic";
+	src: url("../fonts/CenturyGothic.eot") format("eot"), url("../fonts/CenturyGothic.woff") format("woff"),  url("../fonts/CenturyGothic.ttf") format("ttf");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CenturyGothic";
+	src: url("../fonts/CenturyGothic-Italic.eot") format("eot"), url("../fonts/CenturyGothic-Italic.woff") format("woff"),  url("../fonts/CenturyGothic-Italic.ttf") format("ttf");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CenturyGothic";
+	src: url("../fonts/CenturyGothic-Bold.eot") format("eot"), url("../fonts/CenturyGothic-Bold.woff") format("woff"),  url("../fonts/CenturyGothic-Bold.ttf") format("ttf");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Moyenage";
+	src: url("../fonts/Moyenage.eot") format("eot"), url("../fonts/Moyenage.woff") format("woff"),  url("../fonts/Moyenage.eot") format("ttf");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "CenturyGothic", sans-serif;
+	font-size: 17px;
+	line-height: 1.5;
+	background-color: #D1D1D1;
+}
+h1 {
+	font-family: "Moyenage", sans-serif;
+	text-align: center;
+	font-size: 45px;
+	color: #21325E;
+	font-weight: bold;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.32);
+}
+.list {
+	color: #1C658C;
+}
+h2 {
+	text-align: center;
+	font-size: 30px;
+	color: #C0A080;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: 700;
+}
+ul>li {
+	text-align: center;
+}
+.image {
+	display: flex;
+}
+.pictures {
+	margin: 0 auto;
+}
+.list-2>li {
+	text-align: left;
+	color: #4f7186;
+}
+.block-two .text {
+	color:green;
+	font-style: italic;
+}
+h3 {
+	letter-spacing: 2px;
+	color: lightseagreen;
+	font-weight: 700;
+}
+p {
+	text-indent: 30px;
+}
+div {
+	margin: 0px 15px 0px 15px;
+}
